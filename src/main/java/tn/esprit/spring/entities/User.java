@@ -28,6 +28,7 @@ public class User implements Serializable {
 	private String firstName; 
 	
 	private String lastName;
+	//private String lastName;
 	
 	@Temporal(TemporalType.DATE)
 	private Date dateNaissance;
@@ -43,6 +44,7 @@ public class User implements Serializable {
 		this.lastName = lastName;
 		this.dateNaissance = dateNaissance;
 		this.role = role;
+
 	}
 
 
